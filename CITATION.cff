@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "dopa: a local-first, dopamine-aware ADHD assistant for heavy AI-tool users"
+message: "If you use dopa in your work or research, please cite it."
+type: software
+authors:
+  - name: "PDAC Research Labs"
+repository-code: "https://github.com/PDACResearchLabs/dopa"
+abstract: >-
+  dopa is a two-layer ADHD-support tool: a Claude Code skill for interactive
+  diagnosis and check-ins, plus a local-first passive sensor daemon that detects
+  hyperfocus, avoidance, fatigue, and crash patterns from on-device signals
+  (and, opt-in, cloud webcam-affect analysis). It was built to help people whose
+  ADHD symptoms intensify under heavy AI-coding-agent use.
+keywords:
+  - ADHD
+  - human-AI interaction
+  - developer wellbeing
+  - hyperfocus
+  - dopamine
+license: MIT
+version: 0.1.0
+date-released: "2026-06-15"

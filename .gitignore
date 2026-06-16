@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Personal/PII profiles — never commit (keep the schema + dir placeholder)
+profiles/*.yaml
+!profiles/profile-schema.yaml
+!profiles/.gitkeep
+
+# Local runtime data
+.dopa/
+*.db
+.DS_Store

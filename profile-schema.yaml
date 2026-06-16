@@ -1,0 +1,61 @@
+# dopa user profile schema
+# One file per user in profiles/<name>.yaml
+
+profile:
+  name: ""               # display name
+  created: ""            # ISO date of first diagnosis
+  updated: ""            # last profile update
+
+energy:
+  pattern: ""            # morning_lark | night_owl | afternoon_dip | variable
+  peak_hours: []         # e.g. ["07:00-11:00", "16:00-18:00"]
+  crash_hours: []        # e.g. ["13:00-15:00"]
+  notes: ""
+
+task_initiation:
+  style: ""              # paralysis | procrastinator | starter | variable
+  triggers: []           # what makes starting harder (e.g. ambiguity, perfectionism)
+  what_helps: []         # what has worked before
+  notes: ""
+
+focus:
+  style: ""              # hyperfocus | scattered | mixed | balanced
+  hyperfocus_triggers: []  # what pulls them into lock
+  scatter_triggers: []     # what breaks their attention
+  avg_focus_window: ""     # e.g. "45min", "3h"
+  notes: ""
+
+crash:
+  pattern: ""            # irritability | shutdown | exhaustion | spiral | mixed
+  early_signs: []        # what they notice before a crash
+  recovery_time: ""      # how long to recover
+  notes: ""
+
+avoidance:
+  targets: []            # task types consistently avoided
+  patterns: []           # what avoidance looks like (doomscrolling, switching tasks, etc.)
+  notes: ""
+
+dopamine_sources:
+  primary: []            # shipping | novelty | social | competition | learning | building | recognition
+  note: ""               # free-text about what actually lights them up
+
+recovery:
+  activities: []         # what actually recharges them
+  non_activities: []     # things that look like rest but drain them
+  notes: ""
+
+emotional:
+  rejection_sensitivity: ""  # low | medium | high
+  frustration_tolerance: ""  # low | medium | high
+  anxiety_triggers: []
+  grounding_techniques: []   # what helps in the moment
+
+interventions:
+  active: []             # which interventions are enabled for this profile
+  disabled: []           # interventions that were tried and didn't work
+  notes: ""
+
+patterns:
+  observed: []           # recurring patterns the assistant has noticed
+  last_review: ""        # ISO date of last pattern review
